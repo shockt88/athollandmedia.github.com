@@ -1,0 +1,53 @@
+
+
+/* form 4 */
+
+	#form4{
+		margin:1em 0;
+		padding-top:1.5em;
+		color:#246878;
+		width:350px; /* customize width, this form have fluid layout */
+		background:#fbfaf4 url(../images/form4/form_bg.gif) repeat-y;		
+		}
+	#form4 h3{
+		margin:0 20px;
+		height:28px;
+		text-indent:-8000px;
+		background:url(../images/form4/form_heading.gif) no-repeat 0 0;	
+		}		
+	#form4 fieldset{
+		margin:0;
+		padding:0;
+		border:none;	
+		padding-bottom:1em;
+		}		
+	#form4 legend{display:none;}	
+	#form4 p{margin:.5em 20px;}	
+	#form4 label{display:block;}	
+	#form4 input, #form4 textarea{		
+		width:302px;
+		border:1px solid #dfdfdf;
+		background:#fff;
+		padding:5px 3px;
+		}		
+	#form4 textarea{
+		height:125px;
+		overflow:auto;
+		}					
+	#form4 p.submit{
+		text-align:right;
+		}	
+	#form4 button{
+		margin:0;
+		padding:0;
+		text-indent:-8000px;
+		overflow:hidden;
+		width:88px;
+		height:56px;
+		border:none;
+		background:url(../images/form4/form_button.gif) no-repeat 0 0;
+		cursor:pointer;
+		text-align:left;
+		}				
+
+/* // form 4 */

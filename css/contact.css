@@ -1,0 +1,80 @@
+html, body {
+height: 100%;
+width: 100%;
+overflow: hidden;
+padding: 0;
+margin: 0;
+}
+
+body{
+overflow:auto;
+}
+
+#full-screen-background-image {
+z-index: -999;
+min-height: 100%;
+min-width: 1024px;
+width: 100%;
+height: auto;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+#wrapper {
+position: relative;
+}
+
+}
+.sidebar-nav {
+    padding: -10px 0;
+margin-top: 400px;
+}
+
+#sidebar {
+    float:right;
+}
+
+#content {
+    margin-left: 0;
+}
+
+#sidebar {
+        float:none;
+}
+
+#contact {
+	margin-top: 50px;
+	float: right;
+	color: black;
+}
+
+#formfit {
+	margin-top: 85px;
+}
+
+#footer {
+	background: black;
+	opacity: .7;
+	padding: 0 0 20px;
+	width: 980px;
+	margin: 0 auto;
+	color: white;
+}
+
+#footer ul li {
+  display: inline;
+  margin-top: 100px;
+  
+}
+
+#footer a, a:active, a:hover {
+  color: white;
+  
+}
+
+#footer li a img {
+  position: relative;
+  bottom: 10px;
+  float: right;
+  size: 30px;
